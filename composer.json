@@ -1,0 +1,27 @@
+{
+    "name": "ponyform/sqlite-store-plugin",
+    "description": "Official PonyForm Plugin to use SQLite as data store",
+    "type": "library",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "Andreas Mischke",
+            "email": "andreas@mischke.me"
+        }
+    ],
+    "require": {
+        "respect/validation": "^2.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "PonyForm\\SqliteStorePlugin\\": ""
+        }
+    },
+    "conflict": {
+        "ponyform/core": "<0.1.0",
+        "ponyform/plugin-contract": "<0.1.0",
+        "ponyform/slim-http-adapter": "<0.1.0",
+        "ponyform/text-question-plugin": "<0.1.0",
+        "ponyform/selection-question-plugin": "<0.1.0"
+    }
+}
