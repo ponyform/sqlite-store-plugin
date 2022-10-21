@@ -1,6 +1,7 @@
 {
     "name": "ponyform/sqlite-store-plugin",
     "description": "Official PonyForm Plugin to use SQLite as data store",
+    "version": "v0.0.0",
     "type": "library",
     "license": "proprietary",
     "authors": [
@@ -10,18 +11,22 @@
         }
     ],
     "require": {
+        "ponyform/plugin-contract": "^0.0",
         "respect/validation": "^2.2"
     },
+    "repositories": [
+        {
+            "type": "path",
+            "url": "../../packages/*"
+        },
+        {
+            "type": "path",
+            "url": "../../plugins/*"
+        }
+    ],
     "autoload": {
         "psr-4": {
             "PonyForm\\SqliteStorePlugin\\": ""
         }
-    },
-    "conflict": {
-        "ponyform/core": "<0.1.0",
-        "ponyform/plugin-contract": "<0.1.0",
-        "ponyform/slim-http-adapter": "<0.1.0",
-        "ponyform/text-question-plugin": "<0.1.0",
-        "ponyform/selection-question-plugin": "<0.1.0"
     }
 }

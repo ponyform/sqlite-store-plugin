@@ -4,8 +4,36 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "2c11bf00e3ddb593d831b836362ab17b",
+    "content-hash": "808cc0840052ee48c6cbceec75c46acc",
     "packages": [
+        {
+            "name": "ponyform/plugin-contract",
+            "version": "v0.0.0",
+            "dist": {
+                "type": "path",
+                "url": "../../packages/PluginContract",
+                "reference": "f6d2a1da2265b61be477bc3d0b97dd3e6b46200a"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "PonyForm\\PluginContract\\": ""
+                }
+            },
+            "license": [
+                "proprietary"
+            ],
+            "authors": [
+                {
+                    "name": "Andreas Mischke",
+                    "email": "andreas@mischke.me"
+                }
+            ],
+            "description": "PonyForm Plugin Contracts",
+            "transport-options": {
+                "relative": true
+            }
+        },
         {
             "name": "respect/stringifier",
             "version": "0.2.0",
